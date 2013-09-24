@@ -1,4 +1,4 @@
-(ns dinghy.election)
+(ns dinghy.domain.election)
 
 ;; Elections
 
