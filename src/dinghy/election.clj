@@ -12,4 +12,5 @@
   [state]
   (-> state
       (assoc :state :candidate)
-      (update-in [:term] #(if % (inc %) 0))))
+      (update-in [:term] (fnil + 0))))
+

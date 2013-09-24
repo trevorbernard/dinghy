@@ -4,6 +4,7 @@
   :license {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
   :dependencies [[org.clojure/clojure "1.5.1"]
+                 [org.clojure/tools.cli "0.2.4"]
                  [net.openhft/chronicle "2.0.1"]
                  [org.zeromq/cljzmq "0.1.2"]
                  [userevents/phaser "1.1.4"]]
