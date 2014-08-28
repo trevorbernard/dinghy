@@ -1,4 +1,4 @@
-(ns dinghy.election
+(ns dinghy.core
   (:require [clojure.tools.logging :as log]
             [clojure.tools.cli :refer [cli]])
   (:gen-class))
